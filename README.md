@@ -1,3 +1,11 @@
+## Description of Course Project Scripts
+
+read_data.R reads in the full 2-million line dataset, and writes out a text file (power_data.txt) containing only the two days worth of data that we need.  This makes plotting a lot faster each time.
+
+plot[1-4].R each check for the presence of power_data.txt. If present, they use it.  If not, read_data.R is run to produce it.
+
+plot[1-4].png are the plots that are produced by corresponding scripts.  They reproduce the plots from the Course Project.
+
 ## Introduction
 
 This assignment uses data from
